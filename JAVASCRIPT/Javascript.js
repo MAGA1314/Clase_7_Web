@@ -32,7 +32,13 @@ document.body.appendChild(main);
 // Creo un nuevo boton
 const divBoton = document.createElement("div");
 divBoton.appendChild(crearBoton("main-boton", "Enviar"));
+divBoton.appendChild(crearBoton("btn-dos", "Registrase"));
 document.body.appendChild(divBoton);
+// Buscar boton por id
+const btnStilo = document.getElementById("Enviar");
+btnStilo.style.color = "blue";
+btnStilo.style.backgroundColor = "gray";
+
 
 
 
