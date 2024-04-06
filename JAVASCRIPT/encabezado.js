@@ -1,7 +1,7 @@
 export const crearEncabezado = () =>{
     return `
     <nav>
-        <center><h3> Entrega # 4 Desarrollo Web ConNuevas Tecnologias </h3></center>
+        <center><h3> Entrega # 4 Desarrollo Web Con Nuevas Tecnologias </h3></center>
     </nav> ` ; 
 };
 // export const crearFondo = (urlImagen) => {

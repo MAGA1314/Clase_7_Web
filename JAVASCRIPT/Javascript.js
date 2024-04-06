@@ -1,5 +1,6 @@
 import { crearEncabezado } from "./encabezado.js";
 import { crearBoton } from "./exportarboto.js";
+import { CrearFooter } from "./footer.js";
 import { crearParrafo } from "./parrafo.js"
 import { Crearh1 } from "./parrafo.js";
 // import { crearFondo } from "./encabezado.js";
@@ -132,5 +133,8 @@ document.getElementById('btnVolver').addEventListener('click', function() {
 const h1u = Crearh1("mi-h1", "¡Nos Vemos Pronto!");
 
 document.body.appendChild(h1u);
-
+const footer = document.createElement("div");
+footer.innerHTML = CrearFooter();
+footer.style.backgroundColor = "#CC6CE7"
+document.body.appendChild(footer);
 
