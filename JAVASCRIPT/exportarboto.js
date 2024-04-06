@@ -4,5 +4,6 @@ export const crearBoton = (clase,texto, id) =>{
     boton.textContent = texto;
     boton.classList.add(clase);
     boton.id = id;
+    boton.style.backgroundColor ='';
     return boton;
 }
